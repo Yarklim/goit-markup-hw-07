@@ -1,0 +1,30 @@
+.peculiarities {
+	@extend %section;
+}
+
+.peculiarities__list {
+	display: flex;
+	gap: 30px;
+}
+
+.peculiarities__item {
+	width: 270px;
+}
+
+.peculiarities__thumb {
+	background-color: var(--bg-button);
+	padding: 25px 100px;
+	margin-bottom: 30px;
+}
+
+.peculiarities__title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	margin-bottom: 10px;
+
+	color: var(--secondary-color);
+}
